@@ -1,4 +1,4 @@
-# knn
+#简单的KNN算法
 import pandas as pd
 import numpy as np
 import operator
@@ -23,3 +23,4 @@ group = np.array([[1.0,1.1],[1.0,1.0],[0,0],[0,0.1]])
 labels = list('AABB')
 knn = classify([0,0],group,labels,3)
 print(knn)
+
